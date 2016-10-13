@@ -1,5 +1,6 @@
 body{
-
+	font: 400 30px/1.4 "Segoe UI", Arial, sans-serif;
+	color: #464b4f;
 }
 
 /* Typography */
@@ -51,7 +52,67 @@ textarea {
 }
 
 /* Layout */
-.ba-container{
+.ba-container {
 	padding-left: 20px;
 	padding-right: 20px;
+	max-width: 940px;
+}
+.ba-header {
+	background: #23232e;
+	color: #ffffff;
+	text-align: center;
+}
+.ba-header h1 {
+	text-transform: uppercase;
+	font-size: 80px;
+	font-weight: 700;
+	margin: 0;
+}
+.ba-header .ba-logo {
+	display: inline-block;
+	padding-top: 80px;
+	padding-bottom: 185px;
+}
+.ba-header .ba-scroll {
+	display: inline-block;
+	padding-bottom: 50px;
+	padding-top: 185px;
+}
+.ba-header p {
+	font-size: 18px;
+	margin: 0;
+	padding-top: 64px;
+	line-height: 30px;
+}
+.ba-main {
+	background : url(../img/background.jpg) ;
+}
+
+.ba-about {
+	padding-top: 90px;
+	padding-bottom: 13px;
+
+}
+.ba-what {
+	font-size: 80px;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+.ba-colums {
+	font-size: 0;
+	padding-top: 9px;
+}
+.ba-block {
+	display: inline-block;
+	width: 33.3333%;
+	font-size: 18px;
+	padding-left: 34px;
+	color: #888a8b;
+	text-align: left;
+}
+.ba-block h4 {
+	font-size: 18px;
+	text-align: left;
+	color: #464b4f ;
 }
